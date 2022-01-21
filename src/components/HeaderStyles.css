@@ -7,6 +7,7 @@ nav {
 
 .navigation-bar {
     list-style: none;
+    margin-right: 58px;
 }
 
 .right-navbar-menu {
@@ -15,11 +16,12 @@ nav {
 li {
     display: inline;
     font-family:'Teko SemiBold', sans-serif;
-    line-height: 0.53px;
     text-transform: uppercase;
     margin: 10px;
     cursor: pointer;
-    font-size: 17px;
+    letter-spacing: 0.51px;
+    font-size: 1.063rem;
+    line-height: 53px;
 }
 
 .separate-navbar {
@@ -34,14 +36,15 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 52px;
     gap: 50px;
 }
 .langue-switch {
     text-transform: uppercase;
     font-family:'Teko SemiBold', sans-serif;
-    line-height: 0.53px;
-    font-size: 17px;
+    letter-spacing: 0.51px;
+    font-size: 1.063rem;
+    line-height: 53px;
 }
 .left-bar-logo {
     margin-left: 230px;
