@@ -30,6 +30,18 @@ body {
   background: #EDF0F2 0% 0% no-repeat padding-box;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  box-sizing: content-box;
+  align-items: center;
+  padding-right: 2%;
+  padding-left: 5%;
+  position: relative;
+  margin-top: 2%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

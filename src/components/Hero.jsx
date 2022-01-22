@@ -11,9 +11,11 @@ const Hero = () => {
                 <div className="header-text">
                     <div className="social-icon-part">
                         <h2 className="sub-title">Find out if you can</h2>
-                        <FaYoutube size="1.5rem"></FaYoutube>
-                        <FaFacebook size="1.5rem"></FaFacebook>
-                        <FaTwitter size="1.5rem"></FaTwitter>
+                        <div className="social-icon-svg">
+                            <FaYoutube size="1.5rem"></FaYoutube>
+                            <FaFacebook size="1.5rem"></FaFacebook>
+                            <FaTwitter size="1.5rem"></FaTwitter>
+                        </div>
                     </div>
                     <div className="part-survive">
                         <h1 className="title-part">SU RVI VE</h1>
