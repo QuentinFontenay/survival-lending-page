@@ -7,11 +7,16 @@ const CompleteChallenge = () => {
     return (
         <>
             <section>
-                <div className="header-text">
-                    <div className="part-survive">
-                        <span>COMPLETED CHALLENGES</span>
+                <div className="header-complete-challenge">
+                    <div className="part-complete-challenge">
+                        <span className="title-complete-challenge">COMPLETED CHALLENGES</span>
                         <h1 className="title-part">13</h1>
-                        <span>You have 78% chance for survival</span>
+                        <div className="text-pourcent-survival">
+                            <span>You have</span>
+                            <span>78% chance</span>
+                            <span>for survival</span>
+                        </div>
+
                     </div>
                     <div className="part-result">
                         <span>YOUR RESULTS</span>

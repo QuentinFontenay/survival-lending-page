@@ -1,0 +1,50 @@
+.part-result {
+    text-align: left;
+    font: normal normal 600 174px/130px Teko;
+    letter-spacing: 5.22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+}
+
+.text-pourcent-survival > span {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 39px/31px Teko;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.text-pourcent-survival {
+    /* display: inline-flex; */
+    /* flex-direction: column; */
+}
+
+.part-complete-challenge {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.part-complete-challenge > h1 {
+    margin-top: 3rem;
+}
+
+.header-complete-challenge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.title-complete-challenge {
+    text-align: left;
+    flex-shrink: 0;
+}
+
+.text-pourcent-survival > span:nth-child(2) {
+    color: #E4003B;
+}
