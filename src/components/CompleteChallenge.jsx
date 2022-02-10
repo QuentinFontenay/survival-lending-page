@@ -23,7 +23,7 @@ const CompleteChallenge = () => {
                     </div>
                 </div>
                 <div >
-                    <img className="paysage-carrousel" src={paysage2}></img>
+                    <img className="img-challenge-completed" src={paysage2}></img>
                 </div>
             </section>
         </>

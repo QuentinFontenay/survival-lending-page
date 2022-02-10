@@ -1,0 +1,89 @@
+.title-survival-mode {
+    /* text-align: left; */
+    font: normal normal 600 174px/130px Teko;
+    letter-spacing: 5.22px;
+    color: #E4003B;
+    text-transform: uppercase;
+    /* transform: matrix(0, -1, 1, 0, 0, 0); */
+    transform: rotate(-180deg);  
+    writing-mode: vertical-lr;
+}
+
+.part-survival-mode {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.part-picture-survival-mode {
+    flex: 2;
+    margin-left: 3%;
+    width: 1283px;
+    height: 612px;
+}
+
+.button-survival-mode {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.text-survival-mode {
+    background: #EDF0F2 0% 0% no-repeat padding-box;
+    position: absolute;
+    z-index: 5;
+    bottom:0;
+    flex-direction: column;
+    width: 492px;
+    height: 267px;
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.text-survival-mode > span {
+    font: normal normal 600 60px/37px Teko;
+    letter-spacing: 1.8px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-left: 7%;
+}
+
+.text-survival-mode > p {
+    /* text-align: left; */
+    font: normal normal normal 14px/26px TT Lakes;
+    letter-spacing: 0.28px;
+    color: #000000;
+    margin-top: 1rem;
+    max-width: 72%;
+    margin-left: 7%;
+}
+
+.paysage3-carrousel {
+    position: relative;
+    display: inline-block;
+}
+
+.dot-survival-mode {
+    background: #EDF0F2 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.text-survival-mode > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.text-survival-mode > div > span {
+   margin-left: 15%;
+}
