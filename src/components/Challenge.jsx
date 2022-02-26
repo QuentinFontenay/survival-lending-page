@@ -11,7 +11,7 @@ import shoes from '../images/shoes.svg';
 const Challenge = () => {
     return (
         <>
-            <section>
+            <section className="challenge">
                 <article className="forecast">
                     <h2 className="title-challenge">Popular challenges</h2>
                     <article className="day-forecast">
@@ -52,12 +52,24 @@ const Challenge = () => {
                     </article>
                 </article>
                 <div className="part-shoes">
-                    <img src={shoes} />
-                    <span className="title-shoes">Mission</span>
-                    <span className="description-shoes">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy tempor.</span>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                        At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                    <div className="title-endurance">
+                        <span>01</span>
+                        <span>ENDU</span>
+                    </div>
+                    <div className="image-shoes">
+                        <img src={shoes} />
+                    </div>
+                    <div className="mission">
+                        <span className="title-shoes">Mission</span>
+                        <span className="description-shoes">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy tempor.</span>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                        <div className="close-endurance">
+                            <img src={close} />
+                            <span>FIND OUT MORE</span>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

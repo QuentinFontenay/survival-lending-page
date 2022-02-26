@@ -1,3 +1,6 @@
+.challenge {
+    align-items: initial;
+}
 .title-challenge {
     text-align: left;
     font: normal normal 600 60px/60px Teko;
@@ -13,7 +16,7 @@
     text-align: left;
     font: normal normal 600 17px/53px Teko;
     letter-spacing: 0.51px;
-    color: #E4003B;
+    color: #e4003b;
     text-transform: uppercase;
 }
 
@@ -30,6 +33,7 @@
     font: normal normal normal 14px/26px TT Lakes;
     letter-spacing: 0.28px;
     color: #000000;
+    max-width: 25rem;
 }
 
 .day-forecast > div {
@@ -57,21 +61,72 @@
 }
 
 .title-shoes {
-    text-align: left;
     font: normal normal 600 60px/90px Teko;
     letter-spacing: 0px;
     color: #000000;
 }
 
 .description-shoes {
-    text-align: left;
-    font: normal normal medium 36px/37px Teko;
+    font: normal normal 300 36px/37px Teko;
     letter-spacing: 0px;
     color: #000000;
+    text-align: left;
+    max-width: 25rem;
 }
 
 .part-shoes {
     display: flex;
     flex-direction: column;
-    margin-left: -8%;
+    margin-left: -30%;
+    /* overflow: hidden; */
+}
+
+.title-endurance {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-endurance > span:first-child {
+    text-align: left;
+    font: normal normal 600 60px/60px Teko;
+    letter-spacing: 0px;
+    color: #e4003b;
+}
+
+.title-endurance > span:last-child {
+    text-align: left;
+    font: normal normal 600 174px/130px Teko;
+    letter-spacing: 5.22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    max-width: 20rem;
+    margin-top: 2rem;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mission > p {
+    text-align: initial;
+    max-width: 30rem;
+    margin-top: 1.5rem;
+}
+
+.close-endurance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.close-endurance > span {
+    margin-left: 0.8rem;
+}
+
+.image-shoes {
+    text-align: left;
+    max-height: 30%;
 }

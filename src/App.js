@@ -1,6 +1,7 @@
 import './App.css';
 import Challenge from './components/Challenge';
 import CompleteChallenge from './components/CompleteChallenge';
+import Footer from './components/Footer';
 import GalleryCard from './components/GalleryCard';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -15,6 +16,7 @@ function App() {
       <CompleteChallenge />
       <SurvivalMode />
       <GalleryCard />
+      <Footer />
     </div>
   );
 }
