@@ -14,14 +14,14 @@ const CompleteChallenge = () => {
                         <h1 className="title-part">13</h1>
                         <div className="text-pourcent-survival">
                             <span>You have</span>
-                            <span>78% chance</span>
+                            <div>
+                                <span>78%</span>
+                                <span>chance</span>
+                            </div>
                             <span>for survival</span>
                         </div>
-
                     </div>
-                    <div className="part-result">
-                        <span>YOUR RESULTS</span>
-                    </div>
+                    <span className="part-result">YOUR RESULTS</span>
                 </div>
                 <div className="part-picture-completed-challenge">
                     <div className="text-completed-challenge">

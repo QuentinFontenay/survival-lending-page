@@ -1,17 +1,21 @@
 .part-result {
-    text-align: left;
-    font: normal normal 600 174px/130px Teko;
+    font: normal normal 600 130px/130px Teko;
     letter-spacing: 5.22px;
     color: #FFFFFF;
     text-transform: uppercase;
-    opacity: 1;
-    transform: matrix(0, -1, 1, 0, 0, 0);
+    /* transform: matrix(0, -1, 1, 0, 0, 0); */
+    transform: rotate(-180deg);  
+    writing-mode: vertical-lr;
 }
-
-.text-pourcent-survival > span {
+.text-pourcent-survival {
+    display: flex;
+    flex-direction: column;
+}
+.text-pourcent-survival > span, .text-pourcent-survival > div {
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
     text-align: left;
+    margin-top: 0.5rem;
     font: normal normal 600 39px/31px Teko;
     letter-spacing: 0px;
     color: #000000;
@@ -33,7 +37,6 @@
     flex-direction: row;
     align-items: center;
     flex: 1;
-    flex-wrap: wrap;
 }
 
 .title-complete-challenge {
@@ -45,8 +48,9 @@
     text-transform: uppercase;
 }
 
-.text-pourcent-survival > span:nth-child(2) {
+.text-pourcent-survival > div > span:first-child {
     color: #E4003B;
+    margin-right: 0.5rem;
 }
 
 .text-completed-challenge {
